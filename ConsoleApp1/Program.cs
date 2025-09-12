@@ -85,6 +85,11 @@ if (tehtetüüp == "*")
     tehe = arv1 * arv2;
 }
 
+if (tehtetüüp == "^")
+{
+    tehe = (int)Math.Pow(arv1, arv2);
+}
+
 Console.WriteLine($"Tehte tulemus: {tehe}");
 
 
